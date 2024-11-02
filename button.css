@@ -1,0 +1,31 @@
+button
+{
+    background-color: blueviolet;
+    border-color: green ;
+    border-radius: 100px;
+    border-style: inset;
+    width: 100px;
+    height: 100px;
+    cursor: grab;
+}
+/* This designs your buttons appearance*/
+
+/* This sets the rules for how the images, text and background display */
+
+body{
+    background-color: rgb(241, 166, 223);
+    color: blue
+    }
+    
+    nav{
+    height: 100px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+    }
+    
+    footer{
+    text-align: center;
+    margin-right: 200px;
+    }
