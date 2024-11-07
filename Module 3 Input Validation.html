@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input validation</title>
+    <script src = "JS Module 3 Input Validation.js"></script>
+<!-- Don't forget to link your JS FILE!!!!!-->
+</head>
+<body>
+<!-- The form id command allows you to navigate to another page-->
+    <form id = "inputForm" onsubmit = "return false">
+<!-- Below the input has been named input1 it has specified 
+ that this should be alphanumeric and the type is text.-->
+       Enter alphanumeric <input id = "input1" type = "text"/>
+<!-- The command below specifies that we want an input of only numbers 1-10
+ This is done by creating a second specified input-->
+        <input id = "input2" type = "number" placeholder = "enter 1-10 "/>
+
+<!--The line below gets the form to process when the submit button has been selected-->
+       <input type = "submit" onclick = "check input()"/>
+       <!-- a java script file must be added in order for the web page created to do anything.
+        The javascript function name has to match the onclick name in this examle it is "check input()"-->
+
+        <p id = "status">status of input </p>
+        <!-- The status paragraph is to inform the user of their status
+         This will be linked to the JS if function by using the get element command and specifying the name of the 
+         above paragraph which is status.
+         -->
+
+
+
+    </form>
+
+
+
+
+
+    
+</body>
+</html>
