@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>strings</title>
+    <!--Kimberley Bennett
+        CSC 102
+        Assignment 3:1-->
+    <script src = "stringsFunctions.js"></script>
+    <link rel="stylesheet" href="3-1 Style.css"/>
+</head>
+<body>
+<!-- <h1> is the largest of 6 headings to displaay text on the web page-->
+    <h1 style = "color:aliceblue;"
+    style = "font-size: large;"
+    style = "font-style: unset;"> Words That Stay The Same In Reverse! <h1>
+        <!--<form id adds a form onto the html page everything in the form body should be between the open and closed tags
+"return false"  makes it so that you can go to other pages 
+in the html file-->
+<form id = "lineResults" onsubmit="return false">
+    Enter_A_Word: <input type = "text" id = "word"/>
+
+    <input type = "submit" onclick="words();"/>
+   
+    <!-- input type has the value of submit
+ onclick will activate the strings function in JS-->
+
+ <!-- <p id = will update the html document instead of using alerts-->
+  <p id = "wordEntered"> Is it the same backwards?</p>
+
+
+
+
+
+
+
+
+
+
+
+</form>
+
+
+    
+</body>
+</html>
