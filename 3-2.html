@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>strings</title>
+    <!--Kimberley Bennett
+        CSC 102
+        Assignment 3:1-->
+    <script src = "3-2Functions.js"></script>
+    <link rel="stylesheet" href="3-2 Style.css"/>
+</head>
+<body>
+<!-- <h1> is the largest of 6 headings to displaay text on the web page-->
+    <h1 style = "color:rgb(251, 255, 240);"
+    style = "font-size:larger;"
+    style = "font-style: italic;"> Please Enter Your Information </h1>
+        <!--<form id adds a form onto the html page everything in the form body should be between the open and closed tags
+"return false"  makes it so that you can go to other pages 
+in the html file-->
+<form id = "Demographics" onsubmit="return false">
+    FirstName: <input type = "text" id = "name1"/>
+    LastName: <input type = "text" id = "name2"/>
+    Zip: <input type = "number" id = "Zip1"/>
+
+    <input type = "submit" onclick="info();"/>
+   
+    <!-- input type has the value of submit
+ onclick will activate the info function in JS-->
+
+ <!-- <p id = will update the html document instead of using alerts-->
+  <p id = "valid"> Password</p>
+
+
+
+
+
+
+
+
+
+
+
+</form>
+
+
+    
+</body>
+</html>
