@@ -56,9 +56,7 @@ console.warn("Zip Code must be 5 characters. Please refresh the page and try aga
 }   
    
 
-}
-else (count <max && Zipcount > || < Rule)
-console.warn("Zip Code must be 5 characters. Please refresh the page and try again.");
+
     
    
 
