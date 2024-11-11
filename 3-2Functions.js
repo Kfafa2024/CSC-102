@@ -64,3 +64,5 @@ else
 {
     document.getElementById("valid").innerHTML = "Zip code must be 5 characters, and combined name length cannot exceed 20 characters. Please refresh the page and try again.";
 }  
+
+}
