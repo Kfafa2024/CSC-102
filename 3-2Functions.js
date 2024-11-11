@@ -51,12 +51,16 @@ else if ((count > max) && (ZipCount == Rule))
     /* This error message will appear if the else if statements parameters are true. */
     
 }
-else ((count < max) && (ZipCount != Rule))
-/* In my else statment the user meets the max count requirements but does not meet the Zipcount Rule. */
+else if ((count < max) && (ZipCount != Rule))
+/* In my else statment the user meets the max count requirements but does not meet the Zipcount Rule. 
+EDIT: because the original else statement had more than one set of arguments it must be an else if statement. Otherwise the code 
+will ONLY return the error code below. Regardless of the parameters of the users input.*/
 {
     document.getElementById("valid").innerHTML = "Zip Code must be 5 characters. Please refresh the page and try again.";
 /* If the parameters stated in the else statements arguments are true. The user will recieve a warning that the zipcode count is off. */
 }   
-   
-
-}
+else 
+/* For any other user entrie that do not meet the set parameters. They will recieve the following message. */
+{
+    document.getElementById("valid").innerHTML = "Zip code must be 5 characters, and combined name length cannot exceed 20 characters. Please refresh the page and try again.";
+}  
