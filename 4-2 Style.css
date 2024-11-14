@@ -1,0 +1,43 @@
+h1 
+{
+    background-color: pink;
+}
+
+body
+{
+    background-image: url(origami.jpg);
+    background-repeat: repeat;
+    background-size: 300px;
+}
+
+button
+{
+    
+    align-items: baseline;
+    color: pink;
+    font-size: large;
+    line-height: 20px;
+    padding: 30px;
+    border: 4px solid purple;
+    border-radius: 40px;
+    position:fixed middle;
+    font-family: 'Lucida Sans';
+    text-align: center;
+    background-image: linear-gradient(purple, white);
+}
+
+p
+
+{
+    font-size: large;
+    font-weight: 400;
+    color:lightpink
+}
+
+form
+{
+    
+    font-size: large;
+    font-weight: 400;
+    color:lightpink
+}
