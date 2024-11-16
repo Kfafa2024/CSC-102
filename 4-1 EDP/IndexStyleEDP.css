@@ -1,0 +1,47 @@
+/*
+declaration block:
+
+sewlector{
+property: value;
+property2: value;
+}
+*/
+
+h1
+{
+    text-align: center;
+    color: purple;
+}
+
+
+button
+{
+    display: ruby;
+    color: pink;
+    font-size: large;
+    line-height: 60px;
+    padding: 40px;
+    border: 50px  rgb(255, 9, 4);
+    border-radius: 40px;
+    position:fixed middle;
+    font-family: 'Lucida Sans';
+    text-align: center;
+    background-color: blueviolet;
+    position: static; top: 250; right: 300;
+    cursor:url(icons8-pink-ribbon-48.png),auto;
+}
+/* I wanted a cursor specific to the page, I learned this code from W3WSchools */
+
+body{
+ background-image: url("BC-awareness.jpeg");
+ background-size: contain;
+background-repeat: repeat;
+  }
+
+  audio{
+    /* I added this to position the audio controls on the page and enable the customized cursor*/
+    position: fixed right;
+    cursor:url(icons8-pink-ribbon-48.png),auto;
+  }
+    
+    
