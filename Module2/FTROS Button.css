@@ -1,0 +1,44 @@
+
+h1 {
+    /* Here I have centered my heading 1 and assigned some color attributes to the text */
+    text-align: center;
+    text-decoration-color: azure;
+    color: blueviolet;
+}
+
+/* here I have specified how I want the body or basically the entirety of my page to look like before
+adding into additions such as buttons etc*/
+body {
+    background-color: palevioletred;
+}
+
+
+p{
+    /* I have centered and assigned how I want the line under the button to appear on the page. */
+    font-size: 3em;
+    margin: 20px;
+    /* I hreally appreciate the center attribute for my items on the pages */
+    text-align: center;
+    text-decoration-color: azure;
+    color: blueviolet;
+    /* I have really come to appreciate CSS but only a few days ago realized I can comment 
+    on it using the same comment indicator as JS multiline */
+}
+button{
+    /* font changes the visual attributes of the words inside the button */
+    font-size: 16px;
+    font-weight: bold;
+    /* Below I have specified how I want my button to look to include a black border */ 
+    padding: 10px;
+    border: 4px solid black;
+}
+/* Button hover tells the web page what I want the button to do when I hover over it */
+button:hover {
+background-color: aqua;
+}
+/* Button active is what actions I want CSS to take when the user activates the button,
+in this case it will change colors */
+button:active {
+    background-color: #000;
+    color: #fff;
+}
