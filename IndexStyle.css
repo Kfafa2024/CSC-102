@@ -26,10 +26,12 @@ body{
     }
     
     #memeImage{
+        position: absolute: center;
         margin-right: 200px;
         width: 400px;
     }
     
     h1{
     text-align: center;
+    }
     }
