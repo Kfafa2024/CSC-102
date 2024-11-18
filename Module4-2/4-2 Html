@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>strings</title>
+    <!--Kimberley Bennett
+        CSC 102
+        Assignment 4:2-->
+    <script src = "4-2Functions.js"></script>
+    <link rel="stylesheet" href="4-2 Style.css"/>
+</head>
+<body>
+<center>
+<!-- <h1> is the largest of 6 headings to displaay text on the web page-->
+    
+    <h1> Please Enter Your Information </h1>
+
+        <!--<form id adds a form onto the html page everything in the form body should be between the open and closed tags
+"return false"  makes it so that you can go to other pages 
+in the html file-->
+<form id = "Demographics" onsubmit="return false">
+    FirstName: <input type = "text" id = "name1"/>
+    LastName: <input type = "text" id = "name2"/>
+    Zip: <input type = "number" id = "Zip1"/>
+
+    <input type = "submit" onclick = "info();"/>
+   
+    <!-- input type has the value of submit
+ onclick will activate the info function in JS-->
+
+ <!-- <p id = will update the html document instead of using alerts-->
+  <p id = "valid"> Password</p>
+
+</form>
+</center>
+    
+</body>
+
+<body>
+    <audio controls>
+        <!-- This adds an audio control that plays and adjusts the sounds on the page-->
+        <source src = "Sounds/swan-lake.mp3"audio/>
+    </audio>
+    <br>
+        <!-- source is how you add the sound to the audio controls if you want to 
+         add sounds through a file you would type in the file "name/sound name.mp3"
+         the file would need to be saved in the same folder as your html doc -->
+
+    
+
+        <!-- Centers the button-->
+        <center>       
+            <button onclick = "play();">Play</button>
+            <!-- This adds buttons to the page that will play and stop the sound.-->
+             <button onclick = "stop();">Stop</button>
+        </center>
+        <center>
+        <nav>
+            <h2>Go back!</h2>
+            
+            <button onclick="history.back()">Go Back</button>
+      
+        </nav>
+        
+       <footer> 
+          Kimberley Bennett <br>
+          University of Advancing Technology <br>
+          2625 W Baseline Rd <br>
+          Tempe, AZ 85283 <br>
+       </footer> 
+    </center>
+       </body>
+
+
+
+
+
+
+</html>
